@@ -1,0 +1,12 @@
+---
+- name: Whores list
+  hosts: all
+  become: true
+  vars_files:
+  - user.yml
+  tasks:
+    - name: creating user {{donkey1}}
+      user:
+        name: "{{donkey1}}"
+
+

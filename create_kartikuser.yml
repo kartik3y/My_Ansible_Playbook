@@ -1,0 +1,8 @@
+---
+- name: Kartikey is God.
+  hosts: webservers
+  become: yes
+  tasks: 
+  - name: creating a user TV
+    user:
+      name: TV  

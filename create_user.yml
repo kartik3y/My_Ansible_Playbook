@@ -1,0 +1,7 @@
+---
+- name: Kartikey is watching you.
+  hosts: all
+  become: true
+  tasks:
+  - name: creating a user Shinde
+    user: name=shinde  
